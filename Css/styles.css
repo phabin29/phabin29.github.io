@@ -1,0 +1,76 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+
+body {
+  background-color: #BDDDFC;
+  overflow-y: scroll;
+  font-family: 'Inter';
+}
+.navbar {
+  
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-content: start;
+ background-color: #88BDF2;
+ height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #384959;
+
+}
+
+.navbar p {
+  
+  border-style: solid;
+  border-radius: 20px;
+  height: 25px;
+  box-shadow: 2px 2px 8px #6A89A7;
+}
+
+.navbar p a:last-child {
+  
+  color: black;
+  font-size: 22px;
+   text-decoration: none;
+   padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar p a:hover {
+  background-color: #6A89A7;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.navbar p a:not(:last-child) {
+  color: black;
+  border-right-style: solid;
+  font-size: 22px;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+hr {
+  border: 2px solid black; 
+  border-radius: 10px;
+}
+
+
+#MainTitle {
+  text-align: center;
+}
+
+
+#Footer {
+  
+}
+
+img  {
+  box-shadow: 2px 2px 8px #384959;
+}
